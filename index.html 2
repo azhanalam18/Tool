@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MyTools — Image & PDF Tools</title>
+<meta name="description" content="MyTools — collection of free, fast, and responsive online tools for images, PDFs, and more.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  body { font-family: 'Inter', sans-serif; margin: 0; background: #f4f6f8; color: #333; }
+  header { background: linear-gradient(90deg, #06b6d4, #3b82f6); padding: 2rem 1rem; text-align: center; color: white; }
+  header h1 { margin: 0; font-size: 2rem; }
+  header p { font-size: 1.1rem; margin-top: 0.5rem; }
+  nav { background: white; padding: 0.5rem 1rem; box-shadow: 0 2px 6px rgba(0,0,0,0.05); }
+  nav ul { margin: 0; padding: 0; display: flex; gap: 1rem; list-style: none; justify-content: center; flex-wrap: wrap; }
+  nav a { color: #333; text-decoration: none; font-weight: 600; }
+  .container { max-width: 1200px; margin: auto; padding: 2rem 1rem; }
+  .grid { display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+  .card { background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 12px rgba(0,0,0,0.05); text-align: center; transition: transform 0.2s, box-shadow 0.2s; }
+  .card:hover { transform: translateY(-4px); box-shadow: 0 6px 18px rgba(0,0,0,0.08); }
+  .card img { width: 60px; height: 60px; margin-bottom: 1rem; }
+  .card h3 { margin: 0.5rem 0; }
+  .card p { font-size: 0.9rem; color: #555; }
+  footer { text-align: center; padding: 1rem; color: #777; font-size: 0.9rem; margin-top: 2rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>MyTools</h1>
+  <p>Free, Fast & Responsive Tools for Images, PDFs, and More</p>
+</header>
+<nav>
+  <ul>
+    <li><a href="#image-tools">Image Tools</a></li>
+    <li><a href="#pdf-tools">PDF Tools</a></li>
+    <li><a href="#other-tools">Other Tools</a></li>
+  </ul>
+</nav>
+<div class="container">
+  <h2 id="image-tools">Image Tools</h2>
+  <div class="grid">
+    <div class="card">
+  <a href="/tool/image-compress.html">
+    <img src="icons/compress.svg" alt="Compress">
+    <h3>Image Compressor</h3>
+    <p>Reduce image size without losing quality.</p>
+   </a>
+  </div>
+
+    <div class="card">
+      <img src="icons/convert.svg" alt="Convert">
+      <h3>Image Converter</h3>
+      <p>Convert between JPG, PNG, WebP and more.</p>
+    </div>
+  </div>
+  <h2 id="pdf-tools" style="margin-top:2rem;">PDF Tools</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="icons/merge.svg" alt="Merge PDFs">
+      <h3>Merge PDFs</h3>
+      <p>Combine multiple PDFs into one file.</p>
+    </div>
+    <div class="card">
+      <img src="icons/split.svg" alt="Split PDFs">
+      <h3>Split PDFs</h3>
+      <p>Extract pages from your PDF easily.</p>
+    </div>
+  </div>
+  <h2 id="other-tools" style="margin-top:2rem;">Other Tools</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="icons/text.svg" alt="Text Tools">
+      <h3>Text Formatter</h3>
+      <p>Format and clean your text instantly.</p>
+    </div>
+  </div>
+</div>
+<footer>
+  Built with ❤️ — MyTools • Your one-stop utility hub
+</footer>
+</body>
+</html>
