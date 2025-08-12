@@ -39,7 +39,7 @@
 <div class="container">
   <h2 id="image-tools">Image Tools</h2>
   <div class="grid">
-   <a href="/Tools/image-compress.html" class="card" aria-label="Image Compressor">
+   <a href="/image-compress.html" class="card" aria-label="Image Compressor">
   <img src="icons/compress.svg" alt="">
   <h3>Image Compressor</h3>
   <p>Reduce image size without losing quality.</p>
